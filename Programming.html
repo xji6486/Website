@@ -1,0 +1,772 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+		<title>電腦程式設計 Programming</title>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/jquery-1.11.3.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+<style>
+        .jumbotron {
+        background-image: url("images/background.jpg");
+        background-repeat: repeat;
+        }
+        body { 
+  background-image:url("images/dog.gif"); 
+  background-repeat: repeat; 
+        }
+        </style>
+</head>
+<body>
+<nav class="navbar navbar-default">
+<div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#" id="peace">PEACE</a>
+<script>
+$(document).ready(function(){
+    $("#peace").hover(function(){
+        alert("PEACE");
+    },
+    function(){
+        alert("अचलनाथ");
+        alert("曩摩悉底　悉底　蘇悉底　悉底伽羅　羅耶俱琰　參摩摩悉利　阿闍麼悉底娑婆訶");
+        alert("曩莫 三滿多縛日囉赧 憾");
+    }); 
+});
+</script>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Cultures<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="Taiwanese%20music.html">Taiwanese music</a></li>
+            <li><a href="Global%20music.html">Global music</a></li>
+            <li><a href="Linguistics.html">Linguistics</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Spiritual science<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="Phylosophy.html">Phylosohpy</a></li>
+            <li><a href="God.html">God</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Social science<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="Sociology%20and%20anthropology.html">Scoiology and Anthropology</a></li>
+            <li><a href="Laws%20and%20Politics.html">Laws and Politics</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Natural science<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="Researches.html">Researches</a></li>
+            <li><a href="Programming.html">Programming</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Travel <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="Taipei.html">Taipei</a></li>
+            <li><a href="Hualien.html">Hualien</a></li>
+            <li><a href="Earth.html">Earth</a></li>
+            <li class="divider"></li>
+            <li><a href="Secret%20base.html">My Secret Base</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Time Tunnel</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default" onclick="myFunction()">Submit</button>
+        <script>
+        function myFunction() {
+             alert("Sorry, we got some problems!");
+        }
+        </script>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#" onclick="myFunction2()">Introduction</a></li>
+        <script>
+        function myFunction2() {
+        var person = prompt("目前板主就讀於國立台灣大學,平常喜歡閱讀課外書籍,此外而對於各國的音樂文化也有初淺的研究,夢想是環遊世界,在課業較為閒暇時也喜歡外出運動,下面的連結是我的粉絲專頁,若有想要跟我聯絡也可以利用email,時光荏苒,歲月如梭,想當年從那純樸的花蓮來到這陌生的台北,現在的我似乎已和以前得自己不一樣了,那麼輪到您自我介紹了,請問您又是誰呢?","神秘網路怪客");
+    
+        if (person != null) {
+        document.getElementById("demo").innerHTML =
+        "<strong>哈囉" + person + ",很高興能與您認識!</strong>";
+        }
+        }
+        </script>  
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">My favorites<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="http://www.kkbox.com/tw/tc/column/index.html">Music</a></li>
+            <li><a href="https://www.youtube.com/channel/UCbR6IXDHCjfQAncn23KgVKw">vedios</a></li>
+            <li><a href="https://instagram.com/xji6486/">Pictures</a></li>
+            <li class="divider"></li>
+            <li>&nbsp;&nbsp;&nbsp;&nbsp;<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal2">contact with me</button></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="modal fade" id="myModal2" role="dialog">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Contact with me</h4>
+        </div>
+        <div class="modal-body">
+          <p>Add my line:<br><img class="image full" src="images/my%20lines.jpg" width="100%" height="auto"></img></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container">
+<div class="jumbotron">
+  <h1>資料結構與演算法設計</h1>      
+  <p>未來人類必需學會程式語言來與機器人溝通</p>
+</div>
+</div>
+<div class="container">
+<div class="page-header">
+  <h1>基本程式語言<small>Programming</small></h1>
+</div>
+
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+    <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="heading01">
+      <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse01" aria-expanded="false" aria-controls="collapse01">
+          指令宣告與方程式一
+        </a>
+      </h4>
+        <div class="media">
+  <div class="media-left media-middle">
+    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse01" aria-expanded="false" aria-controls="collapse01">
+      <img class="media-object" src="http://edge.alluremedia.com.au/m/k/2016/01/shutterstock-programming.jpg" width="90" height="90" alt="...">
+    </a>
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading" id="Basic01">Basic01</h4>
+<p>
+Program A： Output to the console screen (25%)<br>
+Program B： Simple calculation (25%)<br>
+Program C： Simple calculation (25%)<br>
+Program D： Programming a mathematical formula (25%)<br>
+</p>
+  </div>
+</div>  
+    </div>
+    <div id="collapse01" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading01">
+      <div class="panel-body">       
+<p>
+<strong>Program A： Output to the console screen (25%)</strong><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Write a program that output a text drawing to the console screen as follows. You may also design your own drawing.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;\_/&nbsp;|   <br>
+&nbsp;&nbsp;/&nbsp;@&nbsp;@&nbsp;\  <br>
+(&nbsp;&nbsp;>&nbsp;&nbsp;º&nbsp;&nbsp;<&nbsp;&nbsp;) <br>
+&nbsp;&nbsp;`>>x<<´  <br>
+&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;O&nbsp;&nbsp;&nbsp;&nbsp;\  <br>
+<br>
+<br>
+<strong>Program B： Simple calculation (25%)</strong><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Study section 2.5 in our textbook and study the Program 2.7. Modify Program 2.7 to calculate the average of three numbers. Compile and run your program.<br>
+<br>
+<br>
+<strong>Program C： Simple calculation (25%)</strong><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Study section 2.6 in our textbook and study the Program 2.11. Modify Program 2.11 to calculate the speed of a car whose received radar frequency is 2.00000035  1010 sec-1. Compile and run your program.<br>
+<br>
+<br>
+<strong>Program D： Programming a mathematical formula (25%)</strong><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a.	The increase in length of a rectangular slab of metal that’s fixed at one end and pulled by a force at its other end is given by this formula:<br>
+I = F X k X l / ( w X d X E )<br>
+		I is the increase in length (mm).<br>
+		F is the applied force (N = kg-m/s2).<br>
+		k is 1000 (conversion of F to millimeter units).<br>
+		l is the slab’s length (mm).<br>
+		w is the slab’s width (mm).<br>
+		d is the slab’s depth (mm).<br>
+		E is the metal’s modulus of elasticity (N/mm2).<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Given this information, design, write, compile, and run a C++ program to calsulate the increase in length when a slab of aluminum that is 3 meters long, 4 cm wide, and 2 mm deep is subjected to a force of 4 Newtons. Aluminum’s modulus of elasticity is 68,950 N/mm2. (Hint: Make sure to convert the length and width to mm dimensions.) Verify the result produced by your program with a hand calculation.<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b.	After verifying that your program is working correctly, use it to determine the increase in length for a slab of copper having the same dimensions as the aluminum slab described above. Copper’s modulus of elasticity is 110,000 N/mm2.<br>
+</p>
+<br>
+<button type="button" class="btn btn-success" data-toggle="modal">
+  <a href="https://drive.google.com/file/d/0BzMNZogZX_Ptc0ROSkJ2dlRzSTg/view?usp=sharing">查看程式碼</a>
+</button><br>
+<br>
+<a href="#Basic01">回到最上層</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+    <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="heading02">
+      <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse02" aria-expanded="false" aria-controls="collapse02">
+          指令宣告與方程式二
+        </a>
+      </h4>
+        <div class="media">
+  <div class="media-left media-middle">
+    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse02" aria-expanded="false" aria-controls="collapse02">
+      <img class="media-object" src="http://edge.alluremedia.com.au/m/k/2016/01/shutterstock-programming.jpg" width="90" height="90" alt="...">
+    </a>
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading" id="Basic02">Basic02</h4>
+<p>
+Program A： Simple arithmetic calculation (25%)<br>
+Program B： Simple arithmetic calculation (25%)<br>
+Program C： Basal metabolic rate calculation (25%)<br>
+Program D： Game of blackjack (25%)<br>
+</p>
+  </div>
+</div>  
+    </div>
+    <div id="collapse02" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading02">
+      <div class="panel-body">       
+<p>
+<strong>Program A： Simple arithmetic calculation (25%)</strong><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Write a program that inputs three integers from the keyboard and show the sum, average, product, smallest and largest of these numbers. The screen dialog should appear as following example:<br>
+Input three different integers: 13  27  17<br>
+Sum is 57<br>
+Average is 19<br>
+Product is 5967<br>
+Smallest number is 13<br>
+Largest number is 27<br>
+<br>
+<br>
+<strong>Program B： Simple arithmetic calculation (25%)</strong><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Write a program that estimates and displays the temperature in a freezer (in C) given the elapsed time (hours) since a power failure. Assume this temperature (T) is given by<br>
+T=  (4t^2)/(t+2)-20<br>
+where t is the time since the power failure. Your program should prompt the user to enter how long it has been since the start of the power failure in whole hours and minutes. Note that you will need to convert the elapsed time into hours. For example, if the user entered 2 30 (2 hours 30 minutes), you would need to convert this to 2.5 hours.<br>
+<br>
+<br>
+<strong>Program C： Basal metabolic rate calculation (25%)</strong><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Harris-Benedict equation estimates the number of calories your body needs to maintain your weight if you do no exercise. This is called your basal metabolic rate, or BMR. The formula for the calories needed for a woman to maintain her weight is:<br>
+BMR=655+(9.563 × weight in kg)+(1.850 × height in cm)-(4.676 ×age in years)<br>
+The formula for the calories needed for a man to maintain his weight is<br>
+BMR=66.5+(13.75 × weight in kg)+(5.003 × height in cm)-(6.755 ×age in years)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A typical chocolate bar will contain around 230 calories. Write a program that allows the user to input his or her weight in kilograms, height in centimeters, age in years, and the character 'M' for male and 'F' for female. The program should then output the number of chocolate bars that should be consumed to maintain one's weight for the appropriate sex of the specified weight, height, and age. Check the results from your program with any BMR calculators on the internet.<br>
+<br>
+<br>
+<strong>Program D：Game of blackjack (25%)</strong><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In the game of blackjack, the cards 2 through 10 are counted at their face values, regardless of suit; all face cards (jack, queen, and king) are counted as 10; and an ace is counted as a 1 or 11, depending on the total count of all cards in a player’s hand. The ace is counted as 11 only if the resulting total value of all cards in a player’s hand doesn’t exceed 21; otherwise, it’s counted as 1. Using this information, write a C++ program that accepts three card values as inputs (a 1 corresponding to an ace, a 2 corresponding to a two, and so on), calculates and display the total value of the hand, and the value of the three cards.<br>
+</p>
+<br>
+<button type="button" class="btn btn-success" data-toggle="modal">
+  <a href="https://drive.google.com/file/d/0BzMNZogZX_PtMlRBTmZDMXJDZW8/view?usp=sharing">查看程式碼</a>
+</button><br>
+<br>
+<a href="#Basic01">回到最上層</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+    <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="heading03">
+      <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse03" aria-expanded="false" aria-controls="collapse03">
+          指令宣告與方程式三
+        </a>
+      </h4>
+        <div class="media">
+  <div class="media-left media-middle">
+    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse03" aria-expanded="false" aria-controls="collapse03">
+      <img class="media-object" src="http://edge.alluremedia.com.au/m/k/2016/01/shutterstock-programming.jpg" width="90" height="90" alt="...">
+    </a>
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading" id="Basic03">Basic03</h4>
+<p>
+Program A： Calculation of Pi (25%)<br>
+Program B： Calculation of prime numbers (25%)<br>
+Program C： Use of switch statement and repetition structure (25%)<br>
+Program D： Use of function and nested loops (25%)<br>
+</p>
+  </div>
+</div>  
+    </div>
+    <div id="collapse03" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading03">
+      <div class="panel-body">       
+<p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+<strong>Program A： Calculation of π(Pi) (25%)</strong><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Write a program to calculate the value of the ratio of a circle's circumference to its diameter, π(Pi), using Leibniz series.<br>
+			            π/4=∑_(k=0 to ∞){[(-1)^k]/(2k+1)}<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Calculate the π values for k = 1000, 10000, 100000, and estimate the errors by comparing a constant variable π equals 3.141592653589793238463 in your program. What is the most accurate value of Pi you can obtain?<br>
+<br>
+<br>
+<strong>Program B： Calculation of prime numbers (25%)</strong><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A prime integer number is one that has exactly two different divisors, namely 1 and the number itself. Write, run, and test a C++ program that finds and displays all the prime numbers less than 1000. (Hint: For each number from 2 to 1000, find Remainder = Number % n, where n ranges from 2 to sqrt(Number). If n is greater than sqrt(Number), the number is not equally divisible by n. Why? If any Remainder equals 0, the number is not a prime number.)<br>
+<br>
+<br>
+<strong>Bonus points (25%): (This is an optional problem)</strong><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A pair of positive integer numbers are called twin primes if they are both prime numbers and the difference between them is 2, i.e., they are consecutive odd numbers and they are prime numbers. (3, 5), (5, 7) and (11, 13) are three examples of such pair of twin prime numbers. Write a program to display all the pairs of twin prime numbers that are less than 1000. What is the greatest twin primes you can obtain?<br>
+<br>
+<br>
+<strong>Program C： Use of switch statement and repetition structure (25%)</strong><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The international standard letter/number mapping found on the telephone is shown below:<br>
+1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2&nbsp;&nbsp;ABC&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;&nbsp;DEF<br>
+4&nbsp;&nbsp;GHI&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5&nbsp;&nbsp;JKL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6&nbsp;&nbsp;MNO&nbsp;&nbsp;&nbsp;&nbsp;<br>
+7&nbsp;&nbsp;PQRS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8&nbsp;&nbsp;TUV&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9&nbsp;&nbsp;WXYZ<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0  	
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Write a program that is capable of inputing a text string using the ten numeric keys (0~9). For example, by defining ‘1’ as ‘SPACE’ and ‘0’ as “END OF SINGLE CHARACTER INPUT”, a text string “HELLO WORLD” can be input by pressing a series of numeric keys “4403305550555066601090666077705550300”; a text string “GOOD MORNING” can be input by a series of numeric keys “4066606660301060666077706604440660400”.  A consecutive input of ‘0’ means the termination of the text string input process.<br>
+<br>
+<br>
+<strong>Program D：Use of function and nested loops (25%)</strong><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The greatest common divisor of integers x and y is the largest integer that evenly divides both x and y. Write a function gcd that returns the greatest common divisor of x and y. Also write a C++ program that calls the gcd function repetitively to create a table of greatest common divisor of paired integers from 1 to 20, as the following figure shows.<br>
+<a href="#" class="image full"><img src="images/programmingex03.jpg" class="img-thumbnail" width="500" height="500" alt="" /></a><br>
+</p>
+<br>
+<button type="button" class="btn btn-success" data-toggle="modal">
+  <a href="https://drive.google.com/file/d/0BzMNZogZX_PtLUt3X0lORUtyNWc/view?usp=sharing">查看程式碼</a>
+</button><br>
+<br>
+<a href="#Basic03">回到最上層</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+    <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="heading04">
+      <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse04" aria-expanded="false" aria-controls="collapse04">
+          指令宣告與方程式四
+        </a>
+      </h4>
+        <div class="media">
+  <div class="media-left media-middle">
+    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse04" aria-expanded="false" aria-controls="collapse04">
+      <img class="media-object" src="http://edge.alluremedia.com.au/m/k/2016/01/shutterstock-programming.jpg" width="90" height="90" alt="...">
+    </a>
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading" id="Basic04">Basic04</h4>
+<p>
+Program A： Perfect number (25%)<br>
+Program B：  Statistical calculation using array (25%)<br>
+Program C： Data processing and sorting (25%)<br>
+Program D： Dice rolling simulation (25%)<br>
+</p>
+  </div>
+</div>  
+    </div>
+    <div id="collapse04" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading04">
+      <div class="panel-body">       
+<p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><strong></strong>
+<strong>Program A: Perfect number (25%)</strong><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A positive integer is a perfect number if it is equal to the sum of all of its factors, including one but excluding itself. For example, 6 is a perfect number, since 6 = 1 + 2 + 3, and 1, 2, and 3 are factors of 6. Design a PerfectNumber(long int Num) function that determines whether the supplied number Num is a perfect number. Write a program to find all perfect numbers between 1 and 10000 by calling the function PerfectNumber(long int Num). What is the greatest perfect number you can find?<br>
+<br>
+<br>
+<strong>Program B: Statistical calculation using array (25%)</strong><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In many statistical analysis programs, data values considerably outside the range of the majority of values are simply dropped from consideration. Using this information, write a C++ program that accepts up to 10 floating-point values from a user and determines and displays the average and standard deviation of the input values. All values more than two standard deviations away from the computed average are to be displayed and dropped from any further calculation, and a new average and standard deviation should be computed and displayed.<br>
+<br>
+<br>
+<strong>Program C: Data processing and sorting (25%)</strong><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(a). Create a two-dimensional list of integer part numbers and quantities of each part in stock, and write a function that displays data in the array in decreasing quantity order. No more than 100 different parts are being kept track of. Test your program with the following data:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(b). Modify the function written in part (a) to display the data in part number order.<br>
+Part No.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quantity<br>
+1001&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;62<br>
+0949&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;85<br>
+1050&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;33<br>
+0867&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;125<br>
+0346&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;59<br>
+1025&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;105<br>
+<br>
+<br>
+<strong>Program D: Dice rolling simulation (25%)</strong><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Write a program that simulates the rolling of two dice. The program should use random number generator (C++ rand() function) to roll the first die and should use rand() function again to roll the second die. The sum of two values should then be calculated. Each die can show an integer value from 1 to 6, so the sum of the two values will vary from 2 to 12, with 7 being the most frequent sum and 2 and 12 being the least frequent sums. Your program should roll the two dice 1000, 10000, and 100000 times separately. Use a one-dimensional array to tally the numbers of times each possible sum appears. Display the results in a tabular format. Also, determine if the totals are reasonable by comparing the theoretical probability.<br>
+</p>
+<br>
+<button type="button" class="btn btn-success" data-toggle="modal">
+  <a href="https://drive.google.com/file/d/0BzMNZogZX_PtY0NpZ2gzSzdlbGs/view?usp=sharing">查看程式碼</a>
+</button><br>
+<br>
+<a href="#Basic04">回到最上層</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+    <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="heading05">
+      <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse05" aria-expanded="false" aria-controls="collapse05">
+          指令宣告與方程式五
+        </a>
+      </h4>
+        <div class="media">
+  <div class="media-left media-middle">
+    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse05" aria-expanded="false" aria-controls="collapse05">
+      <img class="media-object" src="http://edge.alluremedia.com.au/m/k/2016/01/shutterstock-programming.jpg" width="90" height="90" alt="...">
+    </a>
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading" id="Basic05">Basic05</h4>
+<p>
+Program A： Game of life (50%)<br>
+Program B： Magic square (50%)<br>
+</p>
+  </div>
+</div>  
+    </div>
+    <div id="collapse05" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading05">
+      <div class="panel-body">       
+<p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><strong></strong>
+<strong>Program A： Game of life (50%)</strong><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The game of life is a computer simulation that was created by a Cambridge Mathematician named John Conway. The idea is that in each generation life will populate, survive, or die based on certain rules. Read the Wikipedia article ( http://en.wikipedia.org/wiki/Conway's_Game_of_Life ) to learn more about this famous simulation.<br>
+The universe of the Game of Life is a two-dimensional orthogonal grid of square cells, each of which is in one of two possible states, alive or dead. Every cell interacts with its eight neighbors, the immediately adjacent cells in orthogonal and diagonal direction.<br> Cells on the border have less than eight neighbors. At each generation, the following transitions occur:<br>
+1. Any live cell with fewer than two live neighbors dies, as if by loneliness.<br>
+2. Any live cell with more than three live neighbors dies, as if by overcrowding.<br>
+3. Any live cell with two or three live neighbors lives, unchanged, to the next generation.<br>
+4. Any dead cell with exactly three live neighbors comes to life.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The following figures show the grid examples for the first generation, second generation, and third generation, respectively.<br>
+<a href="#" class="image full"><img src="images/programmingex05.jpg" class="img-thumbnail" width="500" height="500" alt="" /></a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Your task is to write a program to simulate the Game of Life for a 20x20 world. The 20x20 world needs to be initialized by reading in which cells are occupied from the user. Your program will generate and display the next generation iteratively based on the set of rules described above. The number of generation for the simulation is also input by the user.<br>
+<br>
+Bonus Points (10%~30%):<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You may obtain bonus points by implementing a better display of simulation results using the Console class for the standard input, output, and error streams for console applications. You may check the MSDN website for more detailed description of the usage of Console class (http://msdn.microsoft.com/en-us/library/system.console(v=vs.110).aspx).<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An example program ConsoleOutputExample.cpp is also provided in the CEIBA course website for your reference on the commands you need for the control of screen output. The major commands you may use are as follows:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Console::SetCursorPosition(x, y);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// Sets the position of the cursor<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Console::Write(System::Char);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// Writes the Unicode character to the screen<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Console::Clear();&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// Clear the console screen<br>
+<br>
+Note:<br>
+1. You need to create a “CLR Console Application” project (not an Win32 Console Application) for your program in order to use the Console class.<br>
+2. You need to add the “using namespace System;” before main().<br>
+<br>
+<br>
+<strong>Program B： Magic square (50%)</strong><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A magic square is a square of numbers with N rows and N columns, in which each integer value from 1 to (NXN) appears exactly once, and the sum of each column, each row, and each diagonal is the same value. For example, the following figure shows a magic square in which N = 3, and the sum of the rows, columns, and diagonal is 15. Write a program that constructs and displays a magic square for any given odd number N.  This is the algorithm:<br>
+<br>
+Insert the value 1 in the middle of the first row (element [0][N%2]).<br>
+After a value, x, has been placed, move up one row and to the right one column.<br>
+Place the next number, x+1, there, unless:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(1)	You move off the top (row = -1) in any column. Then move to the bottom row and place the next number, x+1, in the bottom row of that column.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2)	You move off the right end (column = N) of a row. Then place the next number, x+1, in the first column of that row.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(3)	You move to a position that is already filled or out of the upper-right corner. Then place the next number, x+1, immediately below x.<br>
+Stop when you have placed as many elements as there are in the array.<br>
+<a href="#" class="image full"><img src="images/programmingex051.jpg" class="img-thumbnail" width="500" height="500" alt="" /></a><br>
+</p>
+<br>
+<button type="button" class="btn btn-success" data-toggle="modal">
+  <a href="https://drive.google.com/file/d/0BzMNZogZX_PtallNZ2JiWkdLSkk/view?usp=sharing">查看程式碼</a>
+</button><br>
+<br>
+<a href="#Basic05">回到最上層</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+    <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="heading06">
+      <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse06" aria-expanded="false" aria-controls="collapse06">
+          指令宣告與方程式六
+        </a>
+      </h4>
+        <div class="media">
+  <div class="media-left media-middle">
+    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse06" aria-expanded="false" aria-controls="collapse06">
+      <img class="media-object" src="http://edge.alluremedia.com.au/m/k/2016/01/shutterstock-programming.jpg" width="90" height="90" alt="...">
+    </a>
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading" id="Basic06">Basic06</h4>
+<p>
+Program A： Bridge card game (50%)<br>
+Program B： Morse code (50%)<br>
+</p>
+  </div>
+</div>  
+    </div>
+    <div id="collapse06" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading06">
+      <div class="panel-body">       
+<p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><strong></strong>
+<strong>Program A： Bridge card game (50%)</strong><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In a typical card game, each player gets a hand of cards. The deck is shuffled and cards are dealt one at a time from the deck and added to the players' hands. Bridge uses a pack of 52 playing cards. There are 4 suits (spades, hearts, diamonds, clubs) each of 13 cards: 1 (the Ace) to 10 and Jack, Queen, King. The Ace is the highest card, followed by the King, Queen, down to the 2.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You are requested to design a program to simulate dealing cards to 4 players. The program needs to simulate at least three times of card shuffling and dealing and saves the results into a file as well as displaying the results on the screen. Your program should also calculate and show the total high-card points of each player. High-card points are counted as follows: A = 4 points, K = 3 points, Q = 2 points, and J = 1 point.<br>
+
+Bonus Points (10%~30%):<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You may obtain bonus points by implementing a better display of simulation results using the Console class for the standard input, output, and error streams for console applications. You may check the MSDN website for more detailed description of the usage of Console class (http://msdn.microsoft.com/en-us/library/system.console(v=vs.110).aspx).<br>
+
+Note:<br>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. You need to create a “CLR Console Application” project (not an Win32 Console Application) for your program in order to use the Console class.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. You need to add the “using namespace System;” before main().<br>
+<br>
+<br>
+<strong>Program B： Morse code (50%)</strong><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Perhaps the most famous of all coding schemes is the Morse code, developed by Samuel Morse in 1832 for use with the telegraph system. The Morse code assigns a series of dots and dashes to each letter of the alphabet, each digit and a few special characters (such as period, comma, colon and semicolon). In sound-oriented systems, the dot represents a short sound, and the dash represents a long sound. Other representations of dots and dashes are used with light-oriented systems and signal-flag systems. Separation between words is indicated by a space, or, quite simply, the absence of a dot or dash. In a sound-oriented system, a space is indicated by a short period of time during which no sound is transmitted. The international version of the Morse code is shown in the following table.<br>
+<a href="#" class="image full"><img src="images/programmingex06.jpg" class="img-thumbnail" width="500" height="500" alt="" /></a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Write a program that reads a file named MorseCode.txt and convert it into Morse code. Use one blank between each Morse-coded letter and three blanks between each Morse-coded word. Display the result on the screen and save the converted Morse code into a file named MorseCode.dat. You may also play the sound of Morse code with your program. The file MorseCode.txt has the content as below : <br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Morse code is one of several adapted computer access methods and alternative communication techniques that can be effective in helping enhance the lives of persons with special needs. Those without the ability to speak, sign, or use keyboards may benefit from this proven system of communication.<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Some information about Morse code can be found in the following link:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;http://morsecode.scphillips.com/<br>
+
+</p>
+<br>
+<button type="button" class="btn btn-success" data-toggle="modal">
+  <a href="https://drive.google.com/file/d/0BzMNZogZX_PtQUtEYUJZckp1SEk/view?usp=sharing">查看程式碼</a>
+</button><br>
+<br>
+<a href="#Basic06">回到最上層</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+    <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="heading07">
+      <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse07" aria-expanded="false" aria-controls="collapse07">
+          指令宣告與方程式七
+        </a>
+      </h4>
+        <div class="media">
+  <div class="media-left media-middle">
+    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse07" aria-expanded="false" aria-controls="collapse07">
+      <img class="media-object" src="http://edge.alluremedia.com.au/m/k/2016/01/shutterstock-programming.jpg" width="90" height="90" alt="...">
+    </a>
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading" id="Basic07">Basic07</h4>
+<p>
+Program A： Streams and File I/O (50%)<br>
+Program B： Classes (50%)<br>
+</p>
+  </div>
+</div>  
+    </div>
+    <div id="collapse07" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading07">
+      <div class="panel-body">       
+<p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><strong></strong>
+<strong>Program A： Streams and File I/O (50%)</strong><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The text file words.txt, which is provided on our CEIBA course website, contains an alphabetically sorted list of English words. Note that the words are in mixed upper and lowercase.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Write a program that reads this file and finds the longest word that reverses to a different word. For example, “stun” reverses to make the word “nuts” but is only four letters long. Find the longest such word.<br>
+<br>
+<br>
+<strong>Program B： Classes (50%)</strong>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create a class named Fractions containing two integer data members named num and denom, used to store the numerator and denominator of a fraction having the form num/denom. Your class should include a default constructor that initialized num and denom to 1 if there is no user initialization, and it must prohibit a 0 denominator value. In addition, create member functions for displaying an object’s data value and overloaded operator functions for adding, subtracting, multiplying, and dividing two Fraction objects, as follows:<br>
+<br>
+Addition:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a/b + c/d = (a * d + b * c) / (b * d)<br>
+Subtraction:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a/b - c/d = (a * d - b * c) / (b * d)<br>
+Multiplication:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a/b * c/d = (a * c) / (b * d)<br>
+Division:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(a/b) / (c/d) = (a * d ) / (b * c)<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Finally, your class should have a member function that reduces each fraction to its terms as well as input and output function for entering and displaying a fraction. Implement a C++ main program that tests each member function. <br>
+<br>
+<br>
+<strong>Challenge Program: Sodoku (Bonus Points 50%)</strong><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Solve a partially filled-in normal 9X9 Sudoku grid and display the result in a human-readable format. Backtracking algorithm, but not the only algorithm, is usually used to solve the Sudoku that iterates all the possible solutions for the given sudoku. If the solutions assigned do not lead to the solution of Sudoku, the algorithm discards the solutions and rollbacks to the original solutions and retries again and hence the name backtracking.<br>
+Below is the general pseudocode of backtracking algorithm for standard sudoku template (9X9):<br>
+<br>
+_________________________________________________________________________________<br>
+Initialize 2D array with 81 empty grids (Row=9, Col= 9)<br>
+Fill in some empty grid with the known values<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Make an original copy of the array<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Start from top left grid (nx = 0, ny = 0), check if grid is empty<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (grid is empty) {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;assign the empty grid with values (i)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (no numbers exists in same rows & same columns same as (i) & 3x3 square (i) is currently in)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fill in the number<br>
+if (numbers exists in same rows & same columns same as (i) & 3x3 square (i) is currently in)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;discard (i) and repick other values (i++)<br>
+}<br>
+else {<br>
+while (nx < 9) {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceed to next row grid(nx++, ny)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (nx equals 9) {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reset nx = 1<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;proceed to next column grid(nx,ny++)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (ny equals 9) {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print solution<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+}<br>
+_________________________________________________________________________________<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Your program should allow the user to input a Sodoku game to be solved via a text file and then save the solution in an output file as well as displaying it on the screen. You also need to record and show the computation time of the solution process.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Test your program with the following puzzles representing three different difficulty levels. Compare the computation time of these three puzzles.<br>
+<a href="#" class="image full"><img src="images/programmingex07.jpg" class="img-thumbnail" width="500" height="500" alt="" /></a><br>  
+</p>
+<br>
+<button type="button" class="btn btn-success" data-toggle="modal">
+  <a href="https://drive.google.com/file/d/0BzMNZogZX_PtSVQ5LVliSVhKRTA/view?usp=sharing">查看程式碼</a>
+</button><br>
+<br>
+<a href="#Basic07">回到最上層</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+    <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="heading08">
+      <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse08" aria-expanded="false" aria-controls="collapse08">
+          資料結構與演算法一
+        </a>
+      </h4>
+        <div class="media">
+  <div class="media-left media-middle">
+    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse08" aria-expanded="false" aria-controls="collapse08">
+      <img class="media-object" src="https://fortunedotcom.files.wordpress.com/2016/06/gettyimages-504662110.jpg?w=720" width="90" height="90" alt="...">
+    </a>
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading" id="Basic08">2 dimensions tree</h4>
+<p>
+A 2d-tree is a generalization of a BST to two-dimensional keys. The idea is to build a BST with points in the nodes, using the x- and y-coordinates of the points as keys in strictly alternating sequence.
+</p>
+  </div>
+</div>  
+    </div>
+    <div id="collapse08" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading08">
+      <div class="panel-body">
+<p>
+<br>
+<button type="button" class="btn-info" data-toggle="modal">
+  <a href="https://drive.google.com/file/d/0BzMNZogZX_PtSU45b1RRXzBiQ3M/view?usp=sharing">Targets of the Project</a>
+</button><br>
+<br>
+<a href="#" class="image full"><img src="images/programmingex081.jpg" class="img-thumbnail" width="500" height="500" alt="" /></a><br>  
+<a href="#" class="image full"><img src="images/programmingex082.jpg" class="img-thumbnail" width="500" height="500" alt="" /></a><br> 
+<br>
+<button type="button" class="btn btn-success" data-toggle="modal">
+  <a href="https://drive.google.com/file/d/0BzMNZogZX_PtM3ZoMzJPcjZLSE0/view?usp=sharing">查看程式碼</a>
+</button><br>
+<br>
+<a href="#Basic08">回到最上層</a>
+</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+    <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="heading09">
+      <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse09" aria-expanded="false" aria-controls="collapse09">
+          資料結構與演算法二
+        </a>
+      </h4>
+        <div class="media">
+  <div class="media-left media-middle">
+    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse09" aria-expanded="false" aria-controls="collapse09">
+      <img class="media-object" src="https://fortunedotcom.files.wordpress.com/2016/06/gettyimages-504662110.jpg?w=720" width="90" height="90" alt="...">
+    </a>
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading" id="Basic09">Regional search</h4>
+<p>
+Regional search based on 2d-tree.
+</p>
+  </div>
+</div>  
+    </div>
+    <div id="collapse09" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading09">
+      <div class="panel-body">
+<p>
+<br>
+<button type="button" class="btn-info" data-toggle="modal">
+  <a href="https://drive.google.com/file/d/0BzMNZogZX_PtNGN4NXQyVlp4S0E/view?usp=sharing">Targets of the Project</a>
+</button><br>
+<br>
+<a href="#" class="image full"><img src="images/programmingex09.jpg" class="img-thumbnail" width="500" height="500" alt="" /></a><br> 
+<br>
+<button type="button" class="btn btn-success" data-toggle="modal">
+  <a href="https://drive.google.com/file/d/0BzMNZogZX_PtQnoyZjM0ZlNiVTQ/view?usp=sharing">查看程式碼</a>
+</button><br>
+<br>
+<a href="#Basic09">回到最上層</a>
+</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<div class="container">
+<ul class="share-buttons">
+    <h3><strong>Share this website:</strong></h3>
+  <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fhomepage.ntu.edu.tw%2F~b02b01086%2Findex.html&t=%E7%BE%85%E9%88%9E%E8%BB%92%E7%9A%84%E7%95%B0%E6%AC%A1%E5%85%83%E7%A9%BA%E9%96%93" title="Share on Facebook" target="_blank"><img src="images/flat_web_icon_set/color/Facebook.png"></a></li>
+  <li><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fhomepage.ntu.edu.tw%2F~b02b01086%2Findex.html&text=%E7%BE%85%E9%88%9E%E8%BB%92%E7%9A%84%E7%95%B0%E6%AC%A1%E5%85%83%E7%A9%BA%E9%96%93:%20http%3A%2F%2Fhomepage.ntu.edu.tw%2F~b02b01086%2Findex.html&via=xji6486" target="_blank" title="Tweet"><img src="images/flat_web_icon_set/color/Twitter.png"></a></li>
+  <li><a href="https://plus.google.com/share?url=http%3A%2F%2Fhomepage.ntu.edu.tw%2F~b02b01086%2Findex.html" target="_blank" title="Share on Google+"><img src="images/flat_web_icon_set/color/Google+.png"></a></li>
+  <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fhomepage.ntu.edu.tw%2F~b02b01086%2Findex.html&title=%E7%BE%85%E9%88%9E%E8%BB%92%E7%9A%84%E7%95%B0%E6%AC%A1%E5%85%83%E7%A9%BA%E9%96%93&summary=%E8%A6%AA%E6%84%9B%E7%9A%84%E6%9C%8B%E5%8F%8B%2C%E9%80%99%E7%90%86%E6%98%AF%E6%88%91%E7%9A%84%E5%80%8B%E4%BA%BA%E7%B6%B2%E7%AB%99%2C%E5%B8%8C%E6%9C%9B%E8%83%BD%E9%80%8F%E9%81%8E%E9%80%99%E5%80%8B%E7%B6%B2%E7%AB%99%E4%BE%86%E5%92%8C%E5%A4%A7%E5%AE%B6%E5%81%9A%E7%B7%9A%E4%B8%8A%E4%BA%92%E5%8B%95&source=http%3A%2F%2Fhomepage.ntu.edu.tw%2F~b02b01086%2Findex.html" target="_blank" title="Share on LinkedIn"><img src="images/flat_web_icon_set/color/LinkedIn.png"></a></li>
+  <li><a href="mailto:?subject=%E7%BE%85%E9%88%9E%E8%BB%92%E7%9A%84%E7%95%B0%E6%AC%A1%E5%85%83%E7%A9%BA%E9%96%93&body=%E8%A6%AA%E6%84%9B%E7%9A%84%E6%9C%8B%E5%8F%8B%2C%E9%80%99%E7%90%86%E6%98%AF%E6%88%91%E7%9A%84%E5%80%8B%E4%BA%BA%E7%B6%B2%E7%AB%99%2C%E5%B8%8C%E6%9C%9B%E8%83%BD%E9%80%8F%E9%81%8E%E9%80%99%E5%80%8B%E7%B6%B2%E7%AB%99%E4%BE%86%E5%92%8C%E5%A4%A7%E5%AE%B6%E5%81%9A%E7%B7%9A%E4%B8%8A%E4%BA%92%E5%8B%95:%20http%3A%2F%2Fhomepage.ntu.edu.tw%2F~b02b01086%2Findex.html" target="_blank" title="Email"><img src="images/flat_web_icon_set/color/Email.png"></a></li>
+   <li><img src="images/QR%20code.jpg" data-toggle="modal" data-target="#myModal3"></img></li>
+</ul>
+<div class="modal fade" id="myModal3" role="dialog">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">The QR code:</h4>
+        </div>
+        <div class="modal-body">
+          <p>URL:<br><img class="image full" src="images/Unitag_QRCode_URL.png" width="100%" height="auto"></img></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<style>
+ul.share-buttons{
+list-style: none;
+padding: 0;
+}
+ul.share-buttons li{
+display: inline;
+}
+</style>
+</div>
+<div class="container">
+  <h2>施工中</h2>
+  <p>進度完成百分比:</p> 
+  <div class="progress">
+    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width:20%">
+      20%
+    </div>
+  </div>
+</div> 
+</body>
+</html>
