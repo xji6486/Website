@@ -1,0 +1,568 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+		<title>天文學 Astronomy</title>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/jquery-1.11.3.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+<style>
+        .jumbotron {
+        background-image: url("images/background.jpg");
+        background-repeat: repeat;
+        }
+        body { 
+  background-image:url("images/dog.gif"); 
+  background-repeat: repeat; 
+        }
+        </style>
+</head>
+<body>
+<nav class="navbar navbar-default">
+<div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#" id="peace">PEACE</a>
+<script>
+$(document).ready(function(){
+    $("#peace").hover(function(){
+        alert("PEACE");
+    },
+    function(){
+        alert("अचलनाथ");
+    }); 
+});
+</script>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Cultures<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="Taiwanese%20music.html">Taiwanese music</a></li>
+            <li><a href="Global%20music.html">Global music</a></li>
+            <li><a href="Linguistics.html">Linguistics</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Spiritual science<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="Phylosophy.html">Phylosohpy</a></li>
+            <li><a href="God.html">God</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Social science<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="Sociology%20and%20anthropology.html">Scoiology and Anthropology</a></li>
+            <li><a href="Laws%20and%20Politics.html">Laws and Politics</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Natural science<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="Astronomy.html">Astronomy</a></li>
+            <li><a href="Programming.html">Programming</a></li>
+            <li><a href="Researches.html">Researches</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Travel <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="Taipei.html">Taipei</a></li>
+            <li><a href="Hualien.html">Hualien</a></li>
+            <li><a href="Earth.html">Earth</a></li>
+            <li class="divider"></li>
+            <li><a href="Secret%20base.html">My Secret Base</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Time Tunnel</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default" onclick="myFunction()">Submit</button>
+        <script>
+        function myFunction() {
+             alert("Sorry, we got some problems!");
+        }
+        </script>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#" onclick="myFunction2()">Introduction</a></li>
+        <script>
+        function myFunction2() {
+        var person = prompt("目前旅居於世界各地,閒暇時喜歡賽車競速於各城市的海岸線,夢想是環遊世界與探究人類生命的極致意義。請問您又是誰呢?","神秘網路怪客");
+    
+        if (person != null) {
+        document.getElementById("demo").innerHTML =
+        "<strong>哈囉" + person + ",很高興能與您認識!</strong>";
+        }
+        }
+        </script>  
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">My favorites<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="http://www.kkbox.com/tw/tc/column/index.html">Music</a></li>
+            <li><a href="https://www.youtube.com/channel/UCbR6IXDHCjfQAncn23KgVKw">vedios</a></li>
+            <li><a href="https://instagram.com/xji6486/">Pictures</a></li>
+            <li class="divider"></li>
+            <li>&nbsp;&nbsp;&nbsp;&nbsp;<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal2">contact with me</button></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="modal fade" id="myModal2" role="dialog">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Contact with me</h4>
+        </div>
+        <div class="modal-body">
+          <p>Add my line:<br><img class="image full" src="images/my%20lines.jpg" width="100%" height="auto"></img></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container">
+<div class="jumbotron">
+  <h1>時空探索</h1>      
+  <p>了解時空原理打開時光之門</p>
+</div>
+</div>
+<div class="container">
+<div class="page-header">
+  <h1>星際物理研究<small>Astronomy</small></h1>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading" role="tab" id="heading01">
+    <h4 class="panel-title">
+      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse01" aria-expanded="false" aria-controls="collapse01">
+        天體觀測一
+      </a>
+    </h4>
+      <div class="media">
+<div class="media-left media-middle">
+  <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse01" aria-expanded="false" aria-controls="collapse01">
+    <img class="media-object" src="https://i2.kknews.cc/SIG=3guc0je/4ns10000280on4280s43.jpg" width="90" height="90" alt="...">
+  </a>
+</div>
+<div class="media-body">
+  <h4 class="media-heading" id="天體觀測一">理論推演與實測</h4>
+    <p>
+    1. 為什麼飛機在高緯度地區飛行時可能會在黑夜裡短暫地經過白天？ <br>
+    2. 請描述在極圈內永晝時天空中太陽的路徑。<br>
+    </p>
+  <button type="button" class="btn btn-info" data-toggle="modal">
+<a href="https://drive.google.com/file/d/0BzMNZogZX_PtTjRqTEFMOWNPbUk/view?usp=sharing">檔案彙整記錄</a>
+  </button>
+</div>
+</div>  
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading" role="tab" id="heading01">
+    <h4 class="panel-title">
+      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse02" aria-expanded="false" aria-controls="collapse02">
+        天體觀測二
+      </a>
+    </h4>
+      <div class="media">
+<div class="media-left media-middle">
+  <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse02" aria-expanded="false" aria-controls="collapse02">
+    <img class="media-object" src="https://i2.kknews.cc/SIG=3ujp8ko/4ns10000282n12r424s9.jpg" width="90" height="90" alt="...">
+  </a>
+</div>
+<div class="media-body">
+  <h4 class="media-heading" id="天體觀測二">理論推演與實測</h4>
+    <p>
+    1. 請深入瞭解James Webb Space Telescope (JWST)並做基本介紹，包含JWST的基本設計及其科學目的，以及未來會擺放的位置及這個位置的優點。 <br>
+    2. 從過去到現在，有兩種模型曾被用來介紹宇宙膨脹：「氣球」模型和「葡萄乾」模型。請（一）深入瞭解這兩種模型的內涵和表示方法，討論兩個模型的優劣點；（二）請說明現代宇宙學描述目前宇宙狀態的說法：「均勻膨脹，沒有中心」。<br>
+    </p>
+  <button type="button" class="btn btn-info" data-toggle="modal">
+<a href="https://drive.google.com/file/d/0BzMNZogZX_Ptb1UxUVJ5cEpLSkE/view?usp=sharing">檔案彙整記錄</a>
+  </button>
+</div>
+</div>  
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading" role="tab" id="heading01">
+    <h4 class="panel-title">
+      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse03" aria-expanded="false" aria-controls="collapse03">
+        天體觀測三
+      </a>
+    </h4>
+      <div class="media">
+<div class="media-left media-middle">
+  <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse03" aria-expanded="false" aria-controls="collapse03">
+    <img class="media-object" src="https://i2.kknews.cc/SIG=1lm2m6m/4ns10000281n94o72831.jpg" width="90" height="90" alt="...">
+  </a>
+</div>
+<div class="media-body">
+  <h4 class="media-heading" id="天體觀測三">理論推演與實測</h4>
+    <p>
+    1. 契忍可夫輻射(cherenkov radiation)是如何產生的？表現在外的樣貌為何？ <br>
+    2. 請解釋「哈柏定律」，並舉例說明該定律如何應用。請找出目前最為科學界接受的「哈柏常數」（注意單位！）。如果你是老師，要如何向學生解釋「離得越遠，跑得越快」的哈柏定律？<br>
+    3. 白矮星、中子星、黑洞為三種宇宙中常見的緻密天體。請舉出兩個中子星的例子，並寫出其尺寸大小和密度（如何用日常生活的尺度來描述中子星的密度？）。<br>
+    4. 白矮星的質量上限稱為「錢卓西卡極限」(Chandrasekhar Limit)，請找出相關資料閱讀理解後，簡單解釋；並說明為何觀測遙遠星系中的Ia型超新星亮度，可以得出到該星系的距離。<br>
+    </p>
+  <button type="button" class="btn btn-info" data-toggle="modal">
+<a href="https://drive.google.com/file/d/0BzMNZogZX_PtajRSVHd2UnNmVXc/view?usp=sharing">檔案彙整記錄</a>
+  </button>
+</div>
+</div>  
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading" role="tab" id="heading01">
+    <h4 class="panel-title">
+      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse04" aria-expanded="false" aria-controls="collapse04">
+        天體觀測四
+      </a>
+    </h4>
+      <div class="media">
+<div class="media-left media-middle">
+  <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse04" aria-expanded="false" aria-controls="collapse04">
+    <img class="media-object" src="https://i1.kknews.cc/SIG=1o8hnbt/4nrq0005s3r594084p20.jpg" width="90" height="90" alt="...">
+  </a>
+</div>
+<div class="media-body">
+  <h4 class="media-heading" id="天體觀測四">理論推演與實測</h4>
+    <p>
+    1. (a) 請說明M31仙女座大星系與銀河系未來的碰撞，包含目前的相對速度以及需要多久的時間。(b) 既然宇宙在膨脹，為什麼這兩個星系還會相撞？<br>
+    2. 請描述Alpha Centauri系統，並說明霍京的偉大計劃，這個計劃的科學目的為何？技術挑戰為何？<br>
+    3. 請簡單描述星團的分類，並就兩種星團各舉一兩個例子，如M13和M67。<br>
+    4. 何謂Messier catalog?產生的原因為何？包含哪些類型的天體？<br>
+    </p>
+  <button type="button" class="btn btn-info" data-toggle="modal">
+<a href="https://drive.google.com/file/d/0BzMNZogZX_PtZEZ4UVlIMmVJY1k/view?usp=sharing">檔案彙整記錄</a>
+  </button>
+</div>
+</div>  
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading" role="tab" id="heading01">
+    <h4 class="panel-title">
+      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse05" aria-expanded="false" aria-controls="collapse05">
+        天體觀測五
+      </a>
+    </h4>
+      <div class="media">
+<div class="media-left media-middle">
+  <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse05" aria-expanded="false" aria-controls="collapse05">
+    <img class="media-object" src="https://i1.kknews.cc/SIG=2p1e34t/4ns10000282052s24s5q.jpg" width="90" height="90" alt="...">
+  </a>
+</div>
+<div class="media-body">
+  <h4 class="media-heading" id="天體觀測五">理論推演與實測</h4>
+    <p>
+    1. 請就天體「視星等」、「絕對星等」，和「距離」的關係，做簡單的練習。(a) 天狼星的視星等−1.46，與地球的距離為8.6光年，請算出天狼星的絕對星等；(b) 請查詢夏季大三角（牛郎、織女、天津四）的視星等、和這三顆星與地球的距離，計算這三顆星
+    的絕對星等。(c) 太陽的視星等為−26.74，請將日地距換成pc單位，計算太陽的絕對星等。<br>
+    2. 請查詢1920年Shapley–Curtis Debate的核心爭議，其辯論的過程，以及最終結果。<br>
+    3. 請整理並擴充上課所學，說明三種決定天體距離的方法，以及各自能夠運作的距離範圍：三角視差、光譜視差、造父變星。<br>
+    4. 何謂Messier catalog?產生的原因為何？包含哪些類型的天體？<br>
+    </p>
+  <button type="button" class="btn btn-info" data-toggle="modal">
+<a href="https://drive.google.com/file/d/0BzMNZogZX_PtUnJsVGF3QUt5YVE/view?usp=sharing">檔案彙整記錄</a>
+  </button>
+</div>
+</div>  
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading" role="tab" id="heading01">
+    <h4 class="panel-title">
+      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse06" aria-expanded="false" aria-controls="collapse06">
+        天體觀測六
+      </a>
+    </h4>
+      <div class="media">
+<div class="media-left media-middle">
+  <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse06" aria-expanded="false" aria-controls="collapse06">
+    <img class="media-object" src="https://i1.kknews.cc/SIG=1o8hnbt/4nrq0005s3r594084p20.jpg" width="90" height="90" alt="...">
+  </a>
+</div>
+<div class="media-body">
+  <h4 class="media-heading" id="天體觀測六">理論推演與實測</h4>
+    <p>
+    1. 請說明Ian Shelton 觀測到超新星SN1987A爆發的過程。<br>
+    2. 請描述小柴昌俊（Masatoshi Koshiba）如何建構超級神岡山（Super Kamiokande）實驗，以及如何測量到SN1987A超新星爆炸所釋放的微中子？<br>
+    3. 請描述大質量恆星演化到最後，發生超新星爆炸前的結構狀態。<br>
+    </p>
+  <button type="button" class="btn btn-info" data-toggle="modal">
+<a href="https://drive.google.com/file/d/0BzMNZogZX_Ptel94d3E5NDNSRzQ/view?usp=sharing">檔案彙整記錄</a>
+  </button>
+</div>
+</div>  
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading" role="tab" id="heading01">
+    <h4 class="panel-title">
+      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse07" aria-expanded="false" aria-controls="collapse07">
+        天體觀測七
+      </a>
+    </h4>
+      <div class="media">
+<div class="media-left media-middle">
+  <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse07" aria-expanded="false" aria-controls="collapse07">
+    <img class="media-object" src="https://i2.kknews.cc/SIG=28chqf5/4ns10000281pq1n368r7.jpg" width="90" height="90" alt="...">
+  </a>
+</div>
+<div class="media-body">
+  <h4 class="media-heading" id="天體觀測七">理論推演與實測</h4>
+    <p>
+    1. 試搜尋MACHO計畫的內容與結果。<br>
+    2. 試搜尋TAOS（中美掩星計畫）的內容與結果。<br>
+    3. 請查詢以下暗物質的相關資料: (a) 其存在的證據（例如Rubin的觀測結果）。(b) 星系團裡面暗物質的分布。<br>
+    </p>
+  <button type="button" class="btn btn-info" data-toggle="modal">
+<a href="https://drive.google.com/file/d/0BzMNZogZX_PtMzJtZ0t6bGRwUHM/view?usp=sharing">檔案彙整記錄</a>
+  </button>
+</div>
+</div>  
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading" role="tab" id="heading01">
+    <h4 class="panel-title">
+      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse08" aria-expanded="false" aria-controls="collapse08">
+        天體觀測八
+      </a>
+    </h4>
+      <div class="media">
+<div class="media-left media-middle">
+  <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse08" aria-expanded="false" aria-controls="collapse08">
+    <img class="media-object" src="https://i2.kknews.cc/SIG=1um0h7p/4nrp000619n16r5p0853.jpg" width="90" height="90" alt="...">
+  </a>
+</div>
+<div class="media-body">
+  <h4 class="media-heading" id="天體觀測八">理論推演與實測</h4>
+    <p>
+    1. 請描述太陽光譜的形狀和特徵，整體的形狀數學上如何描述？上面密密麻麻的吸收譜線主要來自何種元素？<br>
+    2. 請闡述何謂「禁止線」（Forbidden lines），並請說明何種天體會產生這種譜線。<br>
+    3. 請解釋類星體核心噴流所產生的「超光速運動」（Superluminal motion）原理為何。<br>
+    </p>
+  <button type="button" class="btn btn-info" data-toggle="modal">
+<a href="https://drive.google.com/file/d/0BzMNZogZX_PtTW84bm9TREJDOEU/view?usp=sharing">檔案彙整記錄</a>
+  </button>
+</div>
+</div>  
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading" role="tab" id="heading01">
+    <h4 class="panel-title">
+      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse09" aria-expanded="false" aria-controls="collapse09">
+        天體觀測九
+      </a>
+    </h4>
+      <div class="media">
+<div class="media-left media-middle">
+  <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse09" aria-expanded="false" aria-controls="collapse09">
+    <img class="media-object" src="https://i2.kknews.cc/SIG=158ssre/4nrs000032664p480235.jpg" width="90" height="90" alt="...">
+  </a>
+</div>
+<div class="media-body">
+  <h4 class="media-heading" id="天體觀測九">理論推演與實測</h4>
+    <p>
+    1. 請介紹卡西尼號從2017.04.26開始的最後任務（The Grand Finale）的大致過程，並解釋為何需要「自毀」。<br>
+    2. 請瞭解並說明日本探索火星的「希望號」（nozomi）的任務架構，和最後的結果。<br>
+    3. （1）請搜尋智利VLA天文台長期觀測銀河中心附近恆星運動的影片，截圖同時附上影片來源，並說明這些恆星運動軌跡所代表的意義。（2）請介紹橢圓星系M87中心關於核心噴流，與氣體高速運動的HST觀測結果。<br>
+    4. 請說明何謂「視界望遠鏡」（Event Horizon Telescope, EHT），及其科學目的。<br>
+    </p>
+  <button type="button" class="btn btn-info" data-toggle="modal">
+<a href="https://drive.google.com/file/d/0BzMNZogZX_PtT2RMdDVpWkdYT1U/view?usp=sharing">檔案彙整記錄</a>
+  </button>
+</div>
+</div>  
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading" role="tab" id="heading01">
+    <h4 class="panel-title">
+      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse10" aria-expanded="false" aria-controls="collapse10">
+        天體觀測十
+      </a>
+    </h4>
+      <div class="media">
+<div class="media-left media-middle">
+  <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse10" aria-expanded="false" aria-controls="collapse10">
+    <img class="media-object" src="http://spaceinfo.jaxa.jp/files/15739.jpg" width="90" height="90" alt="...">
+  </a>
+</div>
+<div class="media-body">
+  <h4 class="media-heading" id="天體觀測十">理論推演與實測</h4>
+    <p>
+    1. 請說明美國90年代的四大 Milestone Telescopes。<br>
+    2. 請說明1995年Lamb 和 Paczynski 大辯論的原因、過程，和結果。<br>
+    </p>
+  <button type="button" class="btn btn-info" data-toggle="modal">
+<a href="https://drive.google.com/file/d/0BzMNZogZX_PtTmQ5LVRjSVc1Njg/view?usp=sharing">檔案彙整記錄</a>
+  </button>
+</div>
+</div>  
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading" role="tab" id="heading01">
+    <h4 class="panel-title">
+      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse11" aria-expanded="false" aria-controls="collapse11">
+        天體觀測十一
+      </a>
+    </h4>
+      <div class="media">
+<div class="media-left media-middle">
+  <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse11" aria-expanded="false" aria-controls="collapse11">
+    <img class="media-object" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Moon_Farside_LRO.jpg/800px-Moon_Farside_LRO.jpg" width="90" height="90" alt="...">
+  </a>
+</div>
+<div class="media-body">
+  <h4 class="media-heading" id="天體觀測十一">理論推演與實測</h4>
+    <p>
+    1. β Pictoris (繪架座β，又稱「老人增四」)是如何經由特殊曝光，觀察到旁邊有盤狀結構？如何將中央亮星擋掉？獲得這個影像後，天文學家做出什麼結論？也請搜尋後續的HST觀測新生恆星周邊灰塵雲盤的精彩影像。<br>
+    2. 請畫出H-R diagram，並說明其中的關鍵組成，和每一部份的意義。<br>
+    3. 請說明低質量恆星（1 M☉）和大質量恆星（5 M☉），在H-R diagram 上的變化路徑。<br>
+    </p>
+  <button type="button" class="btn btn-info" data-toggle="modal">
+<a href="https://drive.google.com/file/d/0BzMNZogZX_PtWl9IYnE2ZGRwNDQ/view?usp=sharing">檔案彙整記錄</a>
+  </button>
+</div>
+</div>  
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading" role="tab" id="heading01">
+    <h4 class="panel-title">
+      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse12" aria-expanded="false" aria-controls="collapse12">
+        天體觀測十二
+      </a>
+    </h4>
+      <div class="media">
+<div class="media-left media-middle">
+  <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse12" aria-expanded="false" aria-controls="collapse12">
+    <img class="media-object" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Ceres_-_RC3_-_Haulani_Crater_%2822381131691%29.jpg/800px-Ceres_-_RC3_-_Haulani_Crater_%2822381131691%29.jpg" width="90" height="90" alt="...">
+  </a>
+</div>
+<div class="media-body">
+  <h4 class="media-heading" id="天體觀測十二">理論推演與實測</h4>
+    <p>
+    1. 請整理上課所學和網路資料，對類地行星以及類木行星做出一個總整理。<br>
+    </p>
+  <button type="button" class="btn btn-info" data-toggle="modal">
+<a href="https://drive.google.com/file/d/0BzMNZogZX_PtZy1CTU5QaTRKUDA/view?usp=sharing">檔案彙整記錄</a>
+  </button>
+</div>
+</div>  
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading" role="tab" id="heading01">
+    <h4 class="panel-title">
+      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse13" aria-expanded="false" aria-controls="collapse13">
+        天體觀測十三
+      </a>
+    </h4>
+      <div class="media">
+<div class="media-left media-middle">
+  <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse13" aria-expanded="false" aria-controls="collapse13">
+    <img class="media-object" src="https://media.npr.org/assets/img/2019/04/10/black-hole-a-consensus-32a870a982f0c4f503914c6006dfdd05366678f7-s1100-c15.jpg" width="90" height="90" alt="...">
+  </a>
+</div>
+<div class="media-body">
+  <h4 class="media-heading" id="天體觀測十三">理論推演與實測</h4>
+    <p>
+    1. 簡述美國30米望遠鏡TMT，與歐洲39米望遠鏡EELT兩望遠鏡的規劃架構、科學目的，和興建現況。<br>
+    2. 說明自適應光學（AO系統）的原理、「假星」的概念，以及世界上大型天文台發展AO系統的現況。<br>
+    3. 簡述智利高原上ALMA的建設過程、科學目的，以及目前現況。<br>
+    </p>
+  <button type="button" class="btn btn-info" data-toggle="modal">
+<a href="https://drive.google.com/file/d/0BzMNZogZX_PtSnJGUjc3N1pYWkE/view?usp=sharing">檔案彙整記錄</a>
+  </button>
+</div>
+</div>  
+  </div>
+</div>
+
+</div>
+
+
+<div class="container">
+<ul class="share-buttons">
+    <h3><strong>Share this website:</strong></h3>
+  <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fhomepage.ntu.edu.tw%2F~b02b01086%2Findex.html&t=%E7%BE%85%E9%88%9E%E8%BB%92%E7%9A%84%E7%95%B0%E6%AC%A1%E5%85%83%E7%A9%BA%E9%96%93" title="Share on Facebook" target="_blank"><img src="images/flat_web_icon_set/color/Facebook.png"></a></li>
+  <li><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fhomepage.ntu.edu.tw%2F~b02b01086%2Findex.html&text=%E7%BE%85%E9%88%9E%E8%BB%92%E7%9A%84%E7%95%B0%E6%AC%A1%E5%85%83%E7%A9%BA%E9%96%93:%20http%3A%2F%2Fhomepage.ntu.edu.tw%2F~b02b01086%2Findex.html&via=xji6486" target="_blank" title="Tweet"><img src="images/flat_web_icon_set/color/Twitter.png"></a></li>
+  <li><a href="https://plus.google.com/share?url=http%3A%2F%2Fhomepage.ntu.edu.tw%2F~b02b01086%2Findex.html" target="_blank" title="Share on Google+"><img src="images/flat_web_icon_set/color/Google+.png"></a></li>
+  <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fhomepage.ntu.edu.tw%2F~b02b01086%2Findex.html&title=%E7%BE%85%E9%88%9E%E8%BB%92%E7%9A%84%E7%95%B0%E6%AC%A1%E5%85%83%E7%A9%BA%E9%96%93&summary=%E8%A6%AA%E6%84%9B%E7%9A%84%E6%9C%8B%E5%8F%8B%2C%E9%80%99%E7%90%86%E6%98%AF%E6%88%91%E7%9A%84%E5%80%8B%E4%BA%BA%E7%B6%B2%E7%AB%99%2C%E5%B8%8C%E6%9C%9B%E8%83%BD%E9%80%8F%E9%81%8E%E9%80%99%E5%80%8B%E7%B6%B2%E7%AB%99%E4%BE%86%E5%92%8C%E5%A4%A7%E5%AE%B6%E5%81%9A%E7%B7%9A%E4%B8%8A%E4%BA%92%E5%8B%95&source=http%3A%2F%2Fhomepage.ntu.edu.tw%2F~b02b01086%2Findex.html" target="_blank" title="Share on LinkedIn"><img src="images/flat_web_icon_set/color/LinkedIn.png"></a></li>
+  <li><a href="mailto:?subject=%E7%BE%85%E9%88%9E%E8%BB%92%E7%9A%84%E7%95%B0%E6%AC%A1%E5%85%83%E7%A9%BA%E9%96%93&body=%E8%A6%AA%E6%84%9B%E7%9A%84%E6%9C%8B%E5%8F%8B%2C%E9%80%99%E7%90%86%E6%98%AF%E6%88%91%E7%9A%84%E5%80%8B%E4%BA%BA%E7%B6%B2%E7%AB%99%2C%E5%B8%8C%E6%9C%9B%E8%83%BD%E9%80%8F%E9%81%8E%E9%80%99%E5%80%8B%E7%B6%B2%E7%AB%99%E4%BE%86%E5%92%8C%E5%A4%A7%E5%AE%B6%E5%81%9A%E7%B7%9A%E4%B8%8A%E4%BA%92%E5%8B%95:%20http%3A%2F%2Fhomepage.ntu.edu.tw%2F~b02b01086%2Findex.html" target="_blank" title="Email"><img src="images/flat_web_icon_set/color/Email.png"></a></li>
+   <li><img src="images/QR%20code.jpg" data-toggle="modal" data-target="#myModal3"></img></li>
+</ul>
+<div class="modal fade" id="myModal3" role="dialog">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">The QR code:</h4>
+        </div>
+        <div class="modal-body">
+          <p>URL:<br><img class="image full" src="images/Unitag_QRCode_URL.png" width="100%" height="auto"></img></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<style>
+ul.share-buttons{
+list-style: none;
+padding: 0;
+}
+ul.share-buttons li{
+display: inline;
+}
+</style>
+</div>
+<div class="container">
+  <h2>施工中</h2>
+  <p>進度完成百分比:</p> 
+  <div class="progress">
+    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width:20%">
+      20%
+    </div>
+  </div>
+</div> 
+</body>
+</html>
