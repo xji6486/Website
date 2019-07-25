@@ -13,7 +13,7 @@
                 googleFormkey: '1FAIpQLSddB-jmWKT33mwdPBFDMWtbV0bVuRlJJzH4t5UxCy-8h87Q4A',
                 googleSheet: "ov4iadt",
                 googleSheetField: "entry.2005709834",
-                talkTime: 1000
+                talkTime: 10000
             };
            
             // 把預設值和實際輸入值比對, 如果有傳入值的則以傳入值為主
