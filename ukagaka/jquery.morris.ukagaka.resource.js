@@ -4,11 +4,16 @@
         ukagaka: function(options) {
             //Settings list and the default values   // 設定plugin input parameters 的預設值
             var defaults = {
-                googleKey: '0ArRwmWo93u-mdG93a2dkSWxIbHEzZjRIeDdxZXdsU1E',
-                googleFormkey: '1xADUIiBq1ksH7lxwSch1Nz_p2gSxdJttmv5OJOxJye0',
-                googleSheet: "od6",
-                googleSheetField: "entry.2030600456",
-                talkTime: 10000
+                //googleKey: '0ArRwmWo93u-mdG93a2dkSWxIbHEzZjRIeDdxZXdsU1E',
+                //googleFormkey: '1xADUIiBq1ksH7lxwSch1Nz_p2gSxdJttmv5OJOxJye0',
+                //googleSheet: "od6",
+                //googleSheetField: "entry.2030600456",
+                //talkTime: 10000
+                googleKey: '1icPg3iso1Ghu4Vaa2yu60VLDhRBPklZZtVdmbchwPh8',
+                googleFormkey: '1FAIpQLSddB-jmWKT33mwdPBFDMWtbV0bVuRlJJzH4t5UxCy-8h87Q4A',
+                googleSheet: "ov4iadt",
+                googleSheetField: "entry.2005709834",
+                talkTime: 1000
             };
            
             // 把預設值和實際輸入值比對, 如果有傳入值的則以傳入值為主
